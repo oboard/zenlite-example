@@ -14,7 +14,7 @@ ZenLite 框架的简单计数器页面的示例。
     window.counter = 0;
   </script>
   You have pushed the button this many times:
-  <!-- 使用 Vue 绑定动态内容 -->
+  <!-- 使用:content绑定动态内容 -->
   <span :content="counter" text-align="center"></span>
   <!-- 点击按钮触发事件，更新 counter 并调用 build 函数 -->
   <button
