@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   zenlite:
-    specifier: ^0.0.3
-    version: 0.0.3
+    specifier: ^0.0.4
+    version: 0.0.4
 
 devDependencies:
   typescript:
@@ -461,6 +461,6 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /zenlite@0.0.3:
-    resolution: {integrity: sha512-VzVvRtaadiCQmJT5SV5eA3gGm/iPses7cXLp+wpCRlU4ZW6QeodM++MzMOQ2oaUTB1RRNPwS3XcdejbXHVZl7Q==}
+  /zenlite@0.0.4:
+    resolution: {integrity: sha512-ENyGEH1st1URhTTHX/mAbHXy/cKFp0aUbc0GziH04R/tll0NSiMrHxVC4eiG1necuqOXxNKMY8Es1698K+h5Qg==}
     dev: false
