@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   zenlite:
-    specifier: ^0.0.6
-    version: 0.0.6(typescript@5.3.3)(vite@5.0.12)
+    specifier: ^0.0.7
+    version: 0.0.7(typescript@5.3.3)(vite@5.0.12)
 
 devDependencies:
   typescript:
@@ -908,8 +908,8 @@ packages:
       commander: 9.5.0
     dev: false
 
-  /zenlite@0.0.6(typescript@5.3.3)(vite@5.0.12):
-    resolution: {integrity: sha512-Sm4RBii3DDcpmaycbOLOg825DTBuQo92HqUH2KdmPuYA6YrH4IWjTgPgDTAYMUbSReC3VPRtdBN+62lUKUbHyA==}
+  /zenlite@0.0.7(typescript@5.3.3)(vite@5.0.12):
+    resolution: {integrity: sha512-H4Iw/slkdZz8hjGWmcD+ByGMhN6QiHWLaXRzXayX+n6SCaQkPFvBkxFt1RDc59H6QTH/tEzFiwpfruFJjPXT1g==}
     dependencies:
       vite-plugin-dts: 3.7.2(typescript@5.3.3)(vite@5.0.12)
     transitivePeerDependencies:

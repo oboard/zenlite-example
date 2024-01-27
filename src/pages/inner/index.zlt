@@ -1,0 +1,6 @@
+<column align-items="center" justify-content="center" height="100vh">
+    This is inner page.
+    <button @click="back" width="auto" height="auto">
+        Back
+    </button>
+</column>

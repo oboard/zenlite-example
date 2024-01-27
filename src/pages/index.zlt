@@ -6,10 +6,13 @@
     }
 </script>
 
-<column align-items="center" justify-content="center" width="100vw" height="100vh">
+<column align-items="center" justify-content="center" width="100vw" height="100vh" gap="2em">
     You have pushed the button this many times:
     <span :content="counter" font-size="100px" text-align="center"></span>
-    <button width="48px" @click="add">
+    <button width="auto" @click="add">
         +
+    </button>
+    <button width="auto" @click="to('/second')">
+        To 2nd page
     </button>
 </column>

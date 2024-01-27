@@ -1,0 +1,9 @@
+<column align-items="center" justify-content="center" height="100vh" gap="2em">
+    This is second page.
+    <button @click="() => to('inner')" width="auto" height="auto">
+        To inner page.
+    </button>
+    <button @click="back" width="auto" height="auto">
+        Back
+    </button>
+</column>
