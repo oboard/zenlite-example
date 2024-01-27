@@ -1,13 +1,15 @@
+<script>
+    window.counter = 0;
+    window.add = () => {
+        window.counter++;
+        build('span');
+    }
+</script>
+
 <column align-items="center" justify-content="center" width="100vw" height="100vh">
-    <script>
-        window.counter = 0;
-    </script>
     You have pushed the button this many times:
-    <span :content="counter" text-align="center"></span>
-    <button width="48px" @click="(e)=>{
-          counter++;
-          build('span');
-        }">
+    <span :content="counter" font-size="100px" text-align="center"></span>
+    <button width="48px" @click="add">
         +
     </button>
 </column>
